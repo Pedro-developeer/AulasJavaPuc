@@ -7,7 +7,7 @@ A granja Frangotech possui um controle automatizado de cada frango da sua produ√
     todos os seus frangos.
  */
 import java.util.Scanner;
-public class Lista2att3 {
+public class Lista2Att3 {
     public static void main(String[] args) {
 
         int QuantidadeFrangos;
