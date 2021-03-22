@@ -7,7 +7,7 @@ Faça um programa que leia o valor de 𝑥, calcule e mostre os resultados das s
  */
 import java.util.Scanner;
 
-public class Lista2att2 {
+public class Lista2Att2 {
 
     public static void main(String[] args) {
         double x,fx,gx,hx,a,b,c;
