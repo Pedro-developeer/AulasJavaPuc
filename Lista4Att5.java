@@ -41,7 +41,7 @@ public class Lista4Att5 {
                 altura = ler.nextDouble();
 
                 volume = (3.14 * Math.pow(raio,2) * altura);
-                area = (3.14 * 3.14 * raio * altura);
+                area = (2 * 3.14 * raio * altura);
                 System.out.println(" O volume do cilinsro é "+volume+", a area do cilindro é "+area);
                 break;
 
