@@ -27,8 +27,8 @@ public class Lista4Att5 {
                 System.out.print("Informe a altura: ");
                 altura = ler.nextDouble();
 
-                volume = ((3.14 * Math.pow(raio,2) * altura)/3); //Volume do Cone reto
-                area = (Math.sqrt(3.14 * raio * 3));  // Area do cone reto
+                volume = ((3.14 * Math.pow(raio,2) * altura))/3; //Volume do Cone reto
+                area = ((3.14 * raio )* Math.sqrt(Math.pow(raio,2)+ Math.pow(altura,2)));  // Area do cone reto
 
                 System.out.println("O volume do Cone reto è "+volume+ " a area do cone reto é "+area);
                 break;
@@ -41,7 +41,7 @@ public class Lista4Att5 {
                 altura = ler.nextDouble();
 
                 volume = (3.14 * Math.pow(raio,2) * altura);
-                area = (2 * 3.14 * raio * altura);
+                area = (2  * 3.14 * raio * altura);
                 System.out.println(" O volume do cilinsro é "+volume+", a area do cilindro é "+area);
                 break;
 
